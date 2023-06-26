@@ -1,0 +1,152 @@
+body {
+    background-image:url("../Img/Background.jpg");
+    background-size: 100%;
+}
+    
+.list_text1 {
+    color: rgb(159, 198, 255);
+    font-size: larger;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.title {
+    line-height: 20px;
+}
+
+.type_a {
+    line-height: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.list {
+    line-height: 30px;
+    list-style-type: square;
+}
+
+.type_p {
+    line-height: 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card img {
+    position:absolute;
+    top:-25px; 
+    left:1160px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.list_text2 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list h1 {
+    color: rgb(106, 213, 255);
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.logo {
+    position:absolute;
+    top:-25px; 
+    left:840px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Will update
+#tetris {
+    width: 360px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#canvas {
+    width: 200px;
+    height: 440px;
+    background-color: black;
+    position: relative;
+    color: white;
+}
+
+canvas h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+}
+
+.piece {
+    border: 1px solid white;
+    position: absolute;
+}
+
+.square {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border: 1px solid white;
+}
+
+.type_0 {
+    background-color: #A000F0;
+}
+
+.type_1 {
+    background-color: #00F0F0;
+}
+
+.type_2 {
+    background-color: #F0A000;
+}
+
+.type_3 {
+    background-color: #0000F0;
+}
+
+.type_4 {
+    background-color: #00F000;
+}
+
+.type_5 {
+    background-color: #F00000;
+}
+
+.type_6 {
+    background-color: #F0F000;
+}
+
+#next_shape {
+    position: relative;
+    background-color: black;
+    border: 1px solid white;
+    width: 110px;
+    height: 110px;
+}
+
+#info {
+    background-color: black;
+    color: white;
+    float: right;
+    width: 110px;
+    height: 420px;
+    padding: 10px;
+}
+ */
