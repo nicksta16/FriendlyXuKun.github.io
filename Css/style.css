@@ -2,7 +2,41 @@ body {
     background-image:url("../Img/Background.jpg");
     background-size: 100%;
 }
-    
+
+.container {
+    overflow: hidden;
+    margin: 0 20px;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.container table {
+    border-collapse: collapse;
+}
+
+.container table thead tr th {
+    color: white;
+    background-color: #4fc3a1;
+}
+
+.container table thead tr th:nth-child(odd) {
+    background-color: #324a61;
+}
+
+.container table thead tr th,
+.container table tbody tr td {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.container table tbody tr td {
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.container table tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
 .list_text1 {
     color: rgb(159, 198, 255);
     font-size: larger;
@@ -17,7 +51,7 @@ body {
 }
 
 .type_a {
-    line-height: 30px;
+    line-height: 40px;
     font-size: x-large;
     font-weight: bold;
 }
@@ -68,6 +102,45 @@ body {
     border-radius: 50%;
     margin-top: 40px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 765px) {
+    .container table {
+        display: flex;
+    }
+
+    .container table thead tr {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container table tbody {
+        display: flex;
+
+        overflow: auto;
+    }
+
+    .container table tbody tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container table thead tr th,
+    .container table tbody tr td {
+        text-align: left;
+        padding: 20px;
+        border-bottom: 1px solid rgb(200, 200, 200);
+        border-right: 1px solid rgb(200, 200, 200);
+    }
+
+    .container table thead tr th:last-child,
+    .container table tbody tr td:last-child {
+        border-bottom: 0;
+    }
+
+    .container table tbody tr td:nth-child(odd) {
+        background-color: #f8f8f8;
+    }
 }
 
 /* Will update
